@@ -30,7 +30,7 @@ ul{
     display: grid;
     grid-template-columns: 1fr 40% 1fr;
     background-color: var(--bg-color);
-    height: 70vh;
+    height: 100vh;
 }
 
 .middleColumn{
