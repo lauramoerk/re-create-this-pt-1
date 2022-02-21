@@ -28,7 +28,7 @@ ul{
 
 .redWrapper{
     display: grid;
-    grid-template-columns: 1fr 40% 1fr;
+    grid-template-columns: 30vw 40vw 30vw;
     background-color: var(--bg-color);
     height: 100vh;
 }
@@ -78,9 +78,9 @@ header ul{
 }
 
 .timerContainer{
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
+    display: grid;
+grid-template-rows: 1fr 1fr;
+padding-top: 2rem;
 }
 
 .timer{
@@ -89,6 +89,7 @@ header ul{
     height: 28rem;
     width: 40rem;
     border-radius: 0.7rem;
+    justify-self: center;
 }
 
 
@@ -149,3 +150,37 @@ header ul{
     cursor: pointer;
 }
 
+.redWrapper section h4,
+.redWrapper section h5{
+    text-align: center;
+    color: white;
+}
+
+.redWrapper section ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid white;
+}
+
+.redWrapper section ul:first-child{
+    margin-right: auto;
+}
+
+.styleAsH3{
+    font-family: var(--primary-font);
+    font-size: var(--fs-m);
+    font-weight: bold;
+    color: white;
+}
+
+.addTask{
+
+    padding-top: 1rem;
+    background-color: var(--hover-color);
+    border: 3px dashed #EBEBEB;
+    border-radius: 0.5rem;
+    height: 4rem;
+margin: auto;
+}
