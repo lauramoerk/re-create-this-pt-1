@@ -86,8 +86,8 @@ header ul{
 .timer{
     background-color:var(--transparent-color);
     padding: 2rem;
-    height: 30rem;
-    width: 50rem;
+    height: 28rem;
+    width: 40rem;
     border-radius: 0.7rem;
 }
 
@@ -110,16 +110,16 @@ header ul{
 .timerLink{
     text-decoration: none;
     font-family: var(--primary-font);
-    font-weight:lighter;
-    font-size: 1.8rem;
+    font-weight:normal;
+    font-size: 1.5rem;
     color: white;
     opacity: 100%; 
 }
 
 .timerFont{
     font-family: var(--primary-font);
-    font-size: 8rem;
-    padding: 4rem;
+    font-size: 10rem;
+    padding: 1rem;
     margin: 0;
     text-align: center;
     color: white;
@@ -133,7 +133,7 @@ header ul{
 
 .startButton button{
     background-color: white;
-    color: red;
+    color: var(--transparent-color);
     height: 6rem;
     width: 20rem;
     border: none;
@@ -148,3 +148,4 @@ header ul{
 .startButton button:hover{
     cursor: pointer;
 }
+
