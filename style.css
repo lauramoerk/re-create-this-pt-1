@@ -15,6 +15,12 @@
     --fs-xl: 4rem;
 }
 
+
+ul{
+    padding: 0;
+    margin:0;
+}
+
 .redWrapper{
     display: grid;
     grid-template-columns: 1fr 50% 1fr;
@@ -39,11 +45,12 @@ header nav ul li:first-child {
 
 header ul{
     list-style: none;
+    padding: 2rem;
 }
 
 
 .navBox{
-    background-color:rgb(255,255,255,0.7);
+    background-color:rgb(255,255,255,0.5);
     padding: 0.5rem;
 }
 
@@ -51,7 +58,7 @@ header ul{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: white;
     opacity: 100%; 
 }
@@ -61,4 +68,67 @@ header ul{
     font-size: 1.5rem;
     color: white;
     opacity: 100%;  
+}
+
+.timerContainer{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.timer{
+    background-color:rgb(255,255,255,0.5);
+    padding: 1rem;
+    height: 30rem;
+    width: 50rem;
+    border-radius: 0.7rem;
+}
+
+
+
+.timer nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.timerLinkBox:hover{
+    background-color: rgb(0,0,0,0.3);
+    padding: 0.7rem;
+}
+
+.timerLink{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: white;
+    opacity: 100%; 
+}
+
+.timerFont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8rem;
+    text-align: center;
+    color: white;
+}
+
+
+.startButton{
+    display: flex;
+    justify-content: center;
+}
+
+.startButton button{
+    background-color: white;
+    color: red;
+    height: 6rem;
+    width: 20rem;
+    border: none;
+    box-shadow: 2px 2px 2px oldlace;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-radius: 00.7rem;
 }
