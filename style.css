@@ -1,4 +1,19 @@
 
+:root{
+
+    --bg-color:#d95450;
+    --transparent-color:#DD6662;
+    --hover-color:#bc5753;
+
+
+    --primary-font: Arial, sans-serif;
+
+    --fs-xs: 0.8rem;
+    --fs-s: 1rem;
+    --fs-m: 1.5rem;
+    --fs-l: 2.5rem;
+    --fs-xl: 4rem;
+}
 
 .redWrapper{
     display: grid;
